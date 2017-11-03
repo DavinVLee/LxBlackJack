@@ -1,0 +1,1129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C0B5EA51FA9E81A006E4795 /* chip50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EA11FA9E819006E4795 /* chip50@2x.png */; };
+		0C0B5EA61FA9E81A006E4795 /* chip100@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EA21FA9E819006E4795 /* chip100@2x.png */; };
+		0C0B5EA71FA9E81A006E4795 /* chip20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EA31FA9E81A006E4795 /* chip20@2x.png */; };
+		0C0B5EA81FA9E81A006E4795 /* chip10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EA41FA9E81A006E4795 /* chip10@2x.png */; };
+		0C0B5EAC1FA9E9AD006E4795 /* LxRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B5EAA1FA9E9AD006E4795 /* LxRootViewController.m */; };
+		0C0B5EAD1FA9E9AD006E4795 /* LxRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EAB1FA9E9AD006E4795 /* LxRootViewController.xib */; };
+		0C0B5EAF1FA9EF4D006E4795 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EAE1FA9EF4D006E4795 /* logo@2x.png */; };
+		0C0B5EB11FA9F0F8006E4795 /* gameTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B5EB01FA9F0F8006E4795 /* gameTitle@2x.png */; };
+		0C4100511FA9BE5300C1C48D /* btnPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C4100501FA9BE5300C1C48D /* btnPlay@2x.png */; };
+		0C4100551FA9CA4200C1C48D /* chips.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C4100541FA9CA4200C1C48D /* chips.png */; };
+		0C41FF5C1FA9AA3A00C1C48D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C41FF5B1FA9AA3A00C1C48D /* AppDelegate.m */; };
+		0C41FF621FA9AA3A00C1C48D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C41FF601FA9AA3A00C1C48D /* Main.storyboard */; };
+		0C41FF641FA9AA3A00C1C48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C41FF631FA9AA3A00C1C48D /* Assets.xcassets */; };
+		0C41FF671FA9AA3A00C1C48D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C41FF651FA9AA3A00C1C48D /* LaunchScreen.storyboard */; };
+		0C41FF6A1FA9AA3A00C1C48D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C41FF691FA9AA3A00C1C48D /* main.m */; };
+		0C41FF741FA9AA3A00C1C48D /* LxBlackjackGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C41FF731FA9AA3A00C1C48D /* LxBlackjackGameTests.m */; };
+		0C41FF7F1FA9AA3B00C1C48D /* LxBlackjackGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C41FF7E1FA9AA3B00C1C48D /* LxBlackjackGameUITests.m */; };
+		0C41FF8E1FA9AAB800C1C48D /* bgMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C41FF8D1FA9AAB800C1C48D /* bgMenu.png */; };
+		0CE7A6C41FAB0040009FA569 /* btnSound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7A6C31FAB0040009FA569 /* btnSound@2x.png */; };
+		0CE7A6C61FAB008F009FA569 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CE7A6C51FAB008F009FA569 /* SpriteKit.framework */; };
+		0CE7A6CD1FAB1AE1009FA569 /* LxGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6CB1FAB1AE1009FA569 /* LxGameViewController.m */; };
+		0CE7A6CE1FAB1AE1009FA569 /* LxGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7A6CC1FAB1AE1009FA569 /* LxGameViewController.xib */; };
+		0CE7A6D01FAB1C46009FA569 /* bgGame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7A6CF1FAB1C46009FA569 /* bgGame@2x.png */; };
+		0CE7A6DA1FABFEBE009FA569 /* ASButtonNode+ClickHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6D91FABFEBE009FA569 /* ASButtonNode+ClickHelp.m */; };
+		0CE7A7141FAC09BF009FA569 /* CALayer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6DF1FAC09BF009FA569 /* CALayer+Default.m */; };
+		0CE7A7151FAC09BF009FA569 /* CAShapeLayer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6E11FAC09BF009FA569 /* CAShapeLayer+Default.m */; };
+		0CE7A7161FAC09BF009FA569 /* CATextLayer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6E31FAC09BF009FA569 /* CATextLayer+Default.m */; };
+		0CE7A7171FAC09BF009FA569 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6E61FAC09BF009FA569 /* NSArray+Helper.m */; };
+		0CE7A7181FAC09BF009FA569 /* NSMutableArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6E81FAC09BF009FA569 /* NSMutableArray+Helper.m */; };
+		0CE7A7191FAC09BF009FA569 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6EB1FAC09BF009FA569 /* NSDictionary+Helper.m */; };
+		0CE7A71A1FAC09BF009FA569 /* NSDictionary+XmlHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6ED1FAC09BF009FA569 /* NSDictionary+XmlHelper.m */; };
+		0CE7A71B1FAC09BF009FA569 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6F01FAC09BF009FA569 /* NSString+Helper.m */; };
+		0CE7A71C1FAC09BF009FA569 /* NSTimer+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6F31FAC09BF009FA569 /* NSTimer+Default.m */; };
+		0CE7A71D1FAC09BF009FA569 /* UIButton+EnlargeEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6F61FAC09BF009FA569 /* UIButton+EnlargeEdge.m */; };
+		0CE7A71E1FAC09BF009FA569 /* UIColor+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6F91FAC09BF009FA569 /* UIColor+Default.m */; };
+		0CE7A71F1FAC09BF009FA569 /* UIFont+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6FC1FAC09BF009FA569 /* UIFont+Default.m */; };
+		0CE7A7201FAC09BF009FA569 /* UIImage+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A6FF1FAC09BF009FA569 /* UIImage+Default.m */; };
+		0CE7A7211FAC09BF009FA569 /* UIView+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A7021FAC09BF009FA569 /* UIView+Default.m */; };
+		0CE7A7221FAC09BF009FA569 /* UIViewController+Default.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A7051FAC09BF009FA569 /* UIViewController+Default.m */; };
+		0CE7A7231FAC09BF009FA569 /* LxAvPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A7091FAC09BF009FA569 /* LxAvPlayerLayer.m */; };
+		0CE7A7241FAC09BF009FA569 /* LxAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A70C1FAC09BF009FA569 /* LxAlertAction.m */; };
+		0CE7A7251FAC09BF009FA569 /* LxAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A70E1FAC09BF009FA569 /* LxAlertController.m */; };
+		0CE7A7261FAC09BF009FA569 /* LxSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7A7131FAC09BF009FA569 /* LxSegmentedControl.m */; };
+		0CE7A7281FAC0D6F009FA569 /* btnMenu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7A7271FAC0D6F009FA569 /* btnMenu@2x.png */; };
+		0CE7A72A1FAC1218009FA569 /* moneyBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE7A7291FAC1218009FA569 /* moneyBar@2x.png */; };
+		8318BDD45987C3A8F658126D /* libPods-LxBlackjackGameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C521D13D20B586AC842140 /* libPods-LxBlackjackGameUITests.a */; };
+		93C351E5052EA0DC9D3CDD9D /* libPods-LxBlackjackGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C6C9139A77B61FCCFD707A /* libPods-LxBlackjackGameTests.a */; };
+		DCC00945BCBBA19FA72E4DB8 /* libPods-LxBlackjackGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 878F672F9B6AE36DC8F8CEE3 /* libPods-LxBlackjackGame.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C41FF701FA9AA3A00C1C48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C41FF4F1FA9AA3A00C1C48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C41FF561FA9AA3A00C1C48D;
+			remoteInfo = LxBlackjackGame;
+		};
+		0C41FF7B1FA9AA3A00C1C48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C41FF4F1FA9AA3A00C1C48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C41FF561FA9AA3A00C1C48D;
+			remoteInfo = LxBlackjackGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0B5EA11FA9E819006E4795 /* chip50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip50@2x.png"; sourceTree = "<group>"; };
+		0C0B5EA21FA9E819006E4795 /* chip100@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip100@2x.png"; sourceTree = "<group>"; };
+		0C0B5EA31FA9E81A006E4795 /* chip20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip20@2x.png"; sourceTree = "<group>"; };
+		0C0B5EA41FA9E81A006E4795 /* chip10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chip10@2x.png"; sourceTree = "<group>"; };
+		0C0B5EA91FA9E9AD006E4795 /* LxRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LxRootViewController.h; sourceTree = "<group>"; };
+		0C0B5EAA1FA9E9AD006E4795 /* LxRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LxRootViewController.m; sourceTree = "<group>"; };
+		0C0B5EAB1FA9E9AD006E4795 /* LxRootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LxRootViewController.xib; sourceTree = "<group>"; };
+		0C0B5EAE1FA9EF4D006E4795 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		0C0B5EB01FA9F0F8006E4795 /* gameTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameTitle@2x.png"; sourceTree = "<group>"; };
+		0C4100501FA9BE5300C1C48D /* btnPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnPlay@2x.png"; sourceTree = "<group>"; };
+		0C4100541FA9CA4200C1C48D /* chips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chips.png; sourceTree = "<group>"; };
+		0C41FF571FA9AA3A00C1C48D /* LxBlackjackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LxBlackjackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C41FF5A1FA9AA3A00C1C48D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C41FF5B1FA9AA3A00C1C48D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C41FF611FA9AA3A00C1C48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C41FF631FA9AA3A00C1C48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C41FF661FA9AA3A00C1C48D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C41FF681FA9AA3A00C1C48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C41FF691FA9AA3A00C1C48D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C41FF6F1FA9AA3A00C1C48D /* LxBlackjackGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LxBlackjackGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C41FF731FA9AA3A00C1C48D /* LxBlackjackGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LxBlackjackGameTests.m; sourceTree = "<group>"; };
+		0C41FF751FA9AA3A00C1C48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C41FF7A1FA9AA3A00C1C48D /* LxBlackjackGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LxBlackjackGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C41FF7E1FA9AA3B00C1C48D /* LxBlackjackGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LxBlackjackGameUITests.m; sourceTree = "<group>"; };
+		0C41FF801FA9AA3B00C1C48D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C41FF8D1FA9AAB800C1C48D /* bgMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgMenu.png; sourceTree = "<group>"; };
+		0C41FF8F1FA9ABB200C1C48D /* MacroDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefine.h; sourceTree = "<group>"; };
+		0C41FF901FA9AC2600C1C48D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0CE7A6C31FAB0040009FA569 /* btnSound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnSound@2x.png"; sourceTree = "<group>"; };
+		0CE7A6C51FAB008F009FA569 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0CE7A6CA1FAB1AE1009FA569 /* LxGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LxGameViewController.h; sourceTree = "<group>"; };
+		0CE7A6CB1FAB1AE1009FA569 /* LxGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LxGameViewController.m; sourceTree = "<group>"; };
+		0CE7A6CC1FAB1AE1009FA569 /* LxGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LxGameViewController.xib; sourceTree = "<group>"; };
+		0CE7A6CF1FAB1C46009FA569 /* bgGame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bgGame@2x.png"; sourceTree = "<group>"; };
+		0CE7A6D81FABFEBE009FA569 /* ASButtonNode+ClickHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASButtonNode+ClickHelp.h"; sourceTree = "<group>"; };
+		0CE7A6D91FABFEBE009FA569 /* ASButtonNode+ClickHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASButtonNode+ClickHelp.m"; sourceTree = "<group>"; };
+		0CE7A6DE1FAC09BF009FA569 /* CALayer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Default.h"; sourceTree = "<group>"; };
+		0CE7A6DF1FAC09BF009FA569 /* CALayer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Default.m"; sourceTree = "<group>"; };
+		0CE7A6E01FAC09BF009FA569 /* CAShapeLayer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Default.h"; sourceTree = "<group>"; };
+		0CE7A6E11FAC09BF009FA569 /* CAShapeLayer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Default.m"; sourceTree = "<group>"; };
+		0CE7A6E21FAC09BF009FA569 /* CATextLayer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+Default.h"; sourceTree = "<group>"; };
+		0CE7A6E31FAC09BF009FA569 /* CATextLayer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+Default.m"; sourceTree = "<group>"; };
+		0CE7A6E51FAC09BF009FA569 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		0CE7A6E61FAC09BF009FA569 /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		0CE7A6E71FAC09BF009FA569 /* NSMutableArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Helper.h"; sourceTree = "<group>"; };
+		0CE7A6E81FAC09BF009FA569 /* NSMutableArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Helper.m"; sourceTree = "<group>"; };
+		0CE7A6EA1FAC09BF009FA569 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
+		0CE7A6EB1FAC09BF009FA569 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
+		0CE7A6EC1FAC09BF009FA569 /* NSDictionary+XmlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XmlHelper.h"; sourceTree = "<group>"; };
+		0CE7A6ED1FAC09BF009FA569 /* NSDictionary+XmlHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XmlHelper.m"; sourceTree = "<group>"; };
+		0CE7A6EF1FAC09BF009FA569 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		0CE7A6F01FAC09BF009FA569 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		0CE7A6F21FAC09BF009FA569 /* NSTimer+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Default.h"; sourceTree = "<group>"; };
+		0CE7A6F31FAC09BF009FA569 /* NSTimer+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Default.m"; sourceTree = "<group>"; };
+		0CE7A6F51FAC09BF009FA569 /* UIButton+EnlargeEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeEdge.h"; sourceTree = "<group>"; };
+		0CE7A6F61FAC09BF009FA569 /* UIButton+EnlargeEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeEdge.m"; sourceTree = "<group>"; };
+		0CE7A6F81FAC09BF009FA569 /* UIColor+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Default.h"; sourceTree = "<group>"; };
+		0CE7A6F91FAC09BF009FA569 /* UIColor+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Default.m"; sourceTree = "<group>"; };
+		0CE7A6FB1FAC09BF009FA569 /* UIFont+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Default.h"; sourceTree = "<group>"; };
+		0CE7A6FC1FAC09BF009FA569 /* UIFont+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Default.m"; sourceTree = "<group>"; };
+		0CE7A6FE1FAC09BF009FA569 /* UIImage+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Default.h"; sourceTree = "<group>"; };
+		0CE7A6FF1FAC09BF009FA569 /* UIImage+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Default.m"; sourceTree = "<group>"; };
+		0CE7A7011FAC09BF009FA569 /* UIView+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Default.h"; sourceTree = "<group>"; };
+		0CE7A7021FAC09BF009FA569 /* UIView+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Default.m"; sourceTree = "<group>"; };
+		0CE7A7041FAC09BF009FA569 /* UIViewController+Default.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Default.h"; sourceTree = "<group>"; };
+		0CE7A7051FAC09BF009FA569 /* UIViewController+Default.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Default.m"; sourceTree = "<group>"; };
+		0CE7A7081FAC09BF009FA569 /* LxAvPlayerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxAvPlayerLayer.h; sourceTree = "<group>"; };
+		0CE7A7091FAC09BF009FA569 /* LxAvPlayerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxAvPlayerLayer.m; sourceTree = "<group>"; };
+		0CE7A70B1FAC09BF009FA569 /* LxAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxAlertAction.h; sourceTree = "<group>"; };
+		0CE7A70C1FAC09BF009FA569 /* LxAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxAlertAction.m; sourceTree = "<group>"; };
+		0CE7A70D1FAC09BF009FA569 /* LxAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxAlertController.h; sourceTree = "<group>"; };
+		0CE7A70E1FAC09BF009FA569 /* LxAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxAlertController.m; sourceTree = "<group>"; };
+		0CE7A70F1FAC09BF009FA569 /* LxHelpConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxHelpConfiguration.h; sourceTree = "<group>"; };
+		0CE7A7121FAC09BF009FA569 /* LxSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxSegmentedControl.h; sourceTree = "<group>"; };
+		0CE7A7131FAC09BF009FA569 /* LxSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxSegmentedControl.m; sourceTree = "<group>"; };
+		0CE7A7271FAC0D6F009FA569 /* btnMenu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnMenu@2x.png"; sourceTree = "<group>"; };
+		0CE7A7291FAC1218009FA569 /* moneyBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moneyBar@2x.png"; sourceTree = "<group>"; };
+		5A499673643768E65169A89D /* Pods-LxBlackjackGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGameTests/Pods-LxBlackjackGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E994366BEBD67180095A4E9 /* Pods-LxBlackjackGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGameUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGameUITests/Pods-LxBlackjackGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		878F672F9B6AE36DC8F8CEE3 /* libPods-LxBlackjackGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LxBlackjackGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C6C9139A77B61FCCFD707A /* libPods-LxBlackjackGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LxBlackjackGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9785DE8E00753D2B0BD35527 /* Pods-LxBlackjackGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGame/Pods-LxBlackjackGame.release.xcconfig"; sourceTree = "<group>"; };
+		A6F75B059D5FE9D94A1E2402 /* Pods-LxBlackjackGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGameTests/Pods-LxBlackjackGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9C521D13D20B586AC842140 /* libPods-LxBlackjackGameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LxBlackjackGameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02B1420268C93FA94A3F27F /* Pods-LxBlackjackGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGame/Pods-LxBlackjackGame.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C51F2015F3B30764BEA1D0 /* Pods-LxBlackjackGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxBlackjackGameUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LxBlackjackGameUITests/Pods-LxBlackjackGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C41FF541FA9AA3A00C1C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CE7A6C61FAB008F009FA569 /* SpriteKit.framework in Frameworks */,
+				DCC00945BCBBA19FA72E4DB8 /* libPods-LxBlackjackGame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF6C1FA9AA3A00C1C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C351E5052EA0DC9D3CDD9D /* libPods-LxBlackjackGameTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF771FA9AA3A00C1C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8318BDD45987C3A8F658126D /* libPods-LxBlackjackGameUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C41FF4E1FA9AA3A00C1C48D = {
+			isa = PBXGroup;
+			children = (
+				0C41FF591FA9AA3A00C1C48D /* LxBlackjackGame */,
+				0C41FF721FA9AA3A00C1C48D /* LxBlackjackGameTests */,
+				0C41FF7D1FA9AA3B00C1C48D /* LxBlackjackGameUITests */,
+				0C41FF581FA9AA3A00C1C48D /* Products */,
+				AD01BBF51E626189C17157C9 /* Pods */,
+				A8AF6B356C9901369A7601D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C41FF581FA9AA3A00C1C48D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C41FF571FA9AA3A00C1C48D /* LxBlackjackGame.app */,
+				0C41FF6F1FA9AA3A00C1C48D /* LxBlackjackGameTests.xctest */,
+				0C41FF7A1FA9AA3A00C1C48D /* LxBlackjackGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C41FF591FA9AA3A00C1C48D /* LxBlackjackGame */ = {
+			isa = PBXGroup;
+			children = (
+				0C41FF931FA9B80800C1C48D /* Common */,
+				0C41FF5A1FA9AA3A00C1C48D /* AppDelegate.h */,
+				0C41FF5B1FA9AA3A00C1C48D /* AppDelegate.m */,
+				0C0B5EA91FA9E9AD006E4795 /* LxRootViewController.h */,
+				0C0B5EAA1FA9E9AD006E4795 /* LxRootViewController.m */,
+				0C0B5EAB1FA9E9AD006E4795 /* LxRootViewController.xib */,
+				0CE7A6CA1FAB1AE1009FA569 /* LxGameViewController.h */,
+				0CE7A6CB1FAB1AE1009FA569 /* LxGameViewController.m */,
+				0CE7A6CC1FAB1AE1009FA569 /* LxGameViewController.xib */,
+				0C41FF8C1FA9AAB000C1C48D /* Resource */,
+				0C41FF601FA9AA3A00C1C48D /* Main.storyboard */,
+				0C41FF631FA9AA3A00C1C48D /* Assets.xcassets */,
+				0C41FF651FA9AA3A00C1C48D /* LaunchScreen.storyboard */,
+				0C41FF8F1FA9ABB200C1C48D /* MacroDefine.h */,
+				0C41FF681FA9AA3A00C1C48D /* Info.plist */,
+				0C41FF901FA9AC2600C1C48D /* PrefixHeader.pch */,
+				0C41FF691FA9AA3A00C1C48D /* main.m */,
+			);
+			path = LxBlackjackGame;
+			sourceTree = "<group>";
+		};
+		0C41FF721FA9AA3A00C1C48D /* LxBlackjackGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C41FF731FA9AA3A00C1C48D /* LxBlackjackGameTests.m */,
+				0C41FF751FA9AA3A00C1C48D /* Info.plist */,
+			);
+			path = LxBlackjackGameTests;
+			sourceTree = "<group>";
+		};
+		0C41FF7D1FA9AA3B00C1C48D /* LxBlackjackGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C41FF7E1FA9AA3B00C1C48D /* LxBlackjackGameUITests.m */,
+				0C41FF801FA9AA3B00C1C48D /* Info.plist */,
+			);
+			path = LxBlackjackGameUITests;
+			sourceTree = "<group>";
+		};
+		0C41FF8C1FA9AAB000C1C48D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7291FAC1218009FA569 /* moneyBar@2x.png */,
+				0CE7A7271FAC0D6F009FA569 /* btnMenu@2x.png */,
+				0CE7A6CF1FAB1C46009FA569 /* bgGame@2x.png */,
+				0C0B5EB01FA9F0F8006E4795 /* gameTitle@2x.png */,
+				0C0B5EAE1FA9EF4D006E4795 /* logo@2x.png */,
+				0C4100541FA9CA4200C1C48D /* chips.png */,
+				0C0B5EA41FA9E81A006E4795 /* chip10@2x.png */,
+				0C0B5EA31FA9E81A006E4795 /* chip20@2x.png */,
+				0C0B5EA11FA9E819006E4795 /* chip50@2x.png */,
+				0C0B5EA21FA9E819006E4795 /* chip100@2x.png */,
+				0C4100501FA9BE5300C1C48D /* btnPlay@2x.png */,
+				0C41FF8D1FA9AAB800C1C48D /* bgMenu.png */,
+				0CE7A6C31FAB0040009FA569 /* btnSound@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		0C41FF931FA9B80800C1C48D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0C41FF941FA9B80800C1C48D /* Lib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0C41FF941FA9B80800C1C48D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6DB1FAC09BF009FA569 /* LxHelp */,
+				0CE7A6D81FABFEBE009FA569 /* ASButtonNode+ClickHelp.h */,
+				0CE7A6D91FABFEBE009FA569 /* ASButtonNode+ClickHelp.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0CE7A6DB1FAC09BF009FA569 /* LxHelp */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6DC1FAC09BF009FA569 /* Category_Default */,
+				0CE7A7061FAC09BF009FA569 /* Inheritance_Default */,
+				0CE7A70F1FAC09BF009FA569 /* LxHelpConfiguration.h */,
+				0CE7A7101FAC09BF009FA569 /* ToolView_Default */,
+			);
+			path = LxHelp;
+			sourceTree = "<group>";
+		};
+		0CE7A6DC1FAC09BF009FA569 /* Category_Default */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6DD1FAC09BF009FA569 /* Calayer */,
+				0CE7A6E41FAC09BF009FA569 /* NSArray */,
+				0CE7A6E91FAC09BF009FA569 /* NSDictionary */,
+				0CE7A6EE1FAC09BF009FA569 /* NSString */,
+				0CE7A6F11FAC09BF009FA569 /* NsTimer */,
+				0CE7A6F41FAC09BF009FA569 /* UIButton */,
+				0CE7A6F71FAC09BF009FA569 /* UIColor */,
+				0CE7A6FA1FAC09BF009FA569 /* UIFont */,
+				0CE7A6FD1FAC09BF009FA569 /* UIImage */,
+				0CE7A7001FAC09BF009FA569 /* UIView */,
+				0CE7A7031FAC09BF009FA569 /* UIViewController */,
+			);
+			path = Category_Default;
+			sourceTree = "<group>";
+		};
+		0CE7A6DD1FAC09BF009FA569 /* Calayer */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6DE1FAC09BF009FA569 /* CALayer+Default.h */,
+				0CE7A6DF1FAC09BF009FA569 /* CALayer+Default.m */,
+				0CE7A6E01FAC09BF009FA569 /* CAShapeLayer+Default.h */,
+				0CE7A6E11FAC09BF009FA569 /* CAShapeLayer+Default.m */,
+				0CE7A6E21FAC09BF009FA569 /* CATextLayer+Default.h */,
+				0CE7A6E31FAC09BF009FA569 /* CATextLayer+Default.m */,
+			);
+			path = Calayer;
+			sourceTree = "<group>";
+		};
+		0CE7A6E41FAC09BF009FA569 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6E51FAC09BF009FA569 /* NSArray+Helper.h */,
+				0CE7A6E61FAC09BF009FA569 /* NSArray+Helper.m */,
+				0CE7A6E71FAC09BF009FA569 /* NSMutableArray+Helper.h */,
+				0CE7A6E81FAC09BF009FA569 /* NSMutableArray+Helper.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		0CE7A6E91FAC09BF009FA569 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6EA1FAC09BF009FA569 /* NSDictionary+Helper.h */,
+				0CE7A6EB1FAC09BF009FA569 /* NSDictionary+Helper.m */,
+				0CE7A6EC1FAC09BF009FA569 /* NSDictionary+XmlHelper.h */,
+				0CE7A6ED1FAC09BF009FA569 /* NSDictionary+XmlHelper.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		0CE7A6EE1FAC09BF009FA569 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6EF1FAC09BF009FA569 /* NSString+Helper.h */,
+				0CE7A6F01FAC09BF009FA569 /* NSString+Helper.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		0CE7A6F11FAC09BF009FA569 /* NsTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6F21FAC09BF009FA569 /* NSTimer+Default.h */,
+				0CE7A6F31FAC09BF009FA569 /* NSTimer+Default.m */,
+			);
+			path = NsTimer;
+			sourceTree = "<group>";
+		};
+		0CE7A6F41FAC09BF009FA569 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6F51FAC09BF009FA569 /* UIButton+EnlargeEdge.h */,
+				0CE7A6F61FAC09BF009FA569 /* UIButton+EnlargeEdge.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		0CE7A6F71FAC09BF009FA569 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6F81FAC09BF009FA569 /* UIColor+Default.h */,
+				0CE7A6F91FAC09BF009FA569 /* UIColor+Default.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		0CE7A6FA1FAC09BF009FA569 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6FB1FAC09BF009FA569 /* UIFont+Default.h */,
+				0CE7A6FC1FAC09BF009FA569 /* UIFont+Default.m */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
+		0CE7A6FD1FAC09BF009FA569 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6FE1FAC09BF009FA569 /* UIImage+Default.h */,
+				0CE7A6FF1FAC09BF009FA569 /* UIImage+Default.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		0CE7A7001FAC09BF009FA569 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7011FAC09BF009FA569 /* UIView+Default.h */,
+				0CE7A7021FAC09BF009FA569 /* UIView+Default.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		0CE7A7031FAC09BF009FA569 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7041FAC09BF009FA569 /* UIViewController+Default.h */,
+				0CE7A7051FAC09BF009FA569 /* UIViewController+Default.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		0CE7A7061FAC09BF009FA569 /* Inheritance_Default */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7071FAC09BF009FA569 /* LxAvPlayerLayer */,
+				0CE7A70A1FAC09BF009FA569 /* UIAlertController */,
+			);
+			path = Inheritance_Default;
+			sourceTree = "<group>";
+		};
+		0CE7A7071FAC09BF009FA569 /* LxAvPlayerLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7081FAC09BF009FA569 /* LxAvPlayerLayer.h */,
+				0CE7A7091FAC09BF009FA569 /* LxAvPlayerLayer.m */,
+			);
+			path = LxAvPlayerLayer;
+			sourceTree = "<group>";
+		};
+		0CE7A70A1FAC09BF009FA569 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A70B1FAC09BF009FA569 /* LxAlertAction.h */,
+				0CE7A70C1FAC09BF009FA569 /* LxAlertAction.m */,
+				0CE7A70D1FAC09BF009FA569 /* LxAlertController.h */,
+				0CE7A70E1FAC09BF009FA569 /* LxAlertController.m */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		0CE7A7101FAC09BF009FA569 /* ToolView_Default */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7111FAC09BF009FA569 /* LxSegmentedControl */,
+			);
+			path = ToolView_Default;
+			sourceTree = "<group>";
+		};
+		0CE7A7111FAC09BF009FA569 /* LxSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A7121FAC09BF009FA569 /* LxSegmentedControl.h */,
+				0CE7A7131FAC09BF009FA569 /* LxSegmentedControl.m */,
+			);
+			path = LxSegmentedControl;
+			sourceTree = "<group>";
+		};
+		A8AF6B356C9901369A7601D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CE7A6C51FAB008F009FA569 /* SpriteKit.framework */,
+				878F672F9B6AE36DC8F8CEE3 /* libPods-LxBlackjackGame.a */,
+				87C6C9139A77B61FCCFD707A /* libPods-LxBlackjackGameTests.a */,
+				A9C521D13D20B586AC842140 /* libPods-LxBlackjackGameUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD01BBF51E626189C17157C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02B1420268C93FA94A3F27F /* Pods-LxBlackjackGame.debug.xcconfig */,
+				9785DE8E00753D2B0BD35527 /* Pods-LxBlackjackGame.release.xcconfig */,
+				5A499673643768E65169A89D /* Pods-LxBlackjackGameTests.debug.xcconfig */,
+				A6F75B059D5FE9D94A1E2402 /* Pods-LxBlackjackGameTests.release.xcconfig */,
+				5E994366BEBD67180095A4E9 /* Pods-LxBlackjackGameUITests.debug.xcconfig */,
+				C2C51F2015F3B30764BEA1D0 /* Pods-LxBlackjackGameUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C41FF561FA9AA3A00C1C48D /* LxBlackjackGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C41FF831FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGame" */;
+			buildPhases = (
+				92F58D4BEDB20B3735442C3C /* [CP] Check Pods Manifest.lock */,
+				0C41FF531FA9AA3A00C1C48D /* Sources */,
+				0C41FF541FA9AA3A00C1C48D /* Frameworks */,
+				0C41FF551FA9AA3A00C1C48D /* Resources */,
+				12015825E9B827054DFAE6FB /* [CP] Embed Pods Frameworks */,
+				7A8C03814316BD0FB5E53DD6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LxBlackjackGame;
+			productName = LxBlackjackGame;
+			productReference = 0C41FF571FA9AA3A00C1C48D /* LxBlackjackGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C41FF6E1FA9AA3A00C1C48D /* LxBlackjackGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C41FF861FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGameTests" */;
+			buildPhases = (
+				E4DCFF1C66CACA50DAC8A2D4 /* [CP] Check Pods Manifest.lock */,
+				0C41FF6B1FA9AA3A00C1C48D /* Sources */,
+				0C41FF6C1FA9AA3A00C1C48D /* Frameworks */,
+				0C41FF6D1FA9AA3A00C1C48D /* Resources */,
+				174065ECC83B4133A27CF212 /* [CP] Embed Pods Frameworks */,
+				3E3C3FFD027C236F2FE986D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C41FF711FA9AA3A00C1C48D /* PBXTargetDependency */,
+			);
+			name = LxBlackjackGameTests;
+			productName = LxBlackjackGameTests;
+			productReference = 0C41FF6F1FA9AA3A00C1C48D /* LxBlackjackGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C41FF791FA9AA3A00C1C48D /* LxBlackjackGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C41FF891FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGameUITests" */;
+			buildPhases = (
+				93901E26C63CBBEEC71FB3E4 /* [CP] Check Pods Manifest.lock */,
+				0C41FF761FA9AA3A00C1C48D /* Sources */,
+				0C41FF771FA9AA3A00C1C48D /* Frameworks */,
+				0C41FF781FA9AA3A00C1C48D /* Resources */,
+				FDA300E91792AF102F5C3E82 /* [CP] Embed Pods Frameworks */,
+				EB6B8AF69A2407222443D134 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C41FF7C1FA9AA3A00C1C48D /* PBXTargetDependency */,
+			);
+			name = LxBlackjackGameUITests;
+			productName = LxBlackjackGameUITests;
+			productReference = 0C41FF7A1FA9AA3A00C1C48D /* LxBlackjackGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C41FF4F1FA9AA3A00C1C48D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DavinLee;
+				TargetAttributes = {
+					0C41FF561FA9AA3A00C1C48D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					0C41FF6E1FA9AA3A00C1C48D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C41FF561FA9AA3A00C1C48D;
+					};
+					0C41FF791FA9AA3A00C1C48D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0C41FF561FA9AA3A00C1C48D;
+					};
+				};
+			};
+			buildConfigurationList = 0C41FF521FA9AA3A00C1C48D /* Build configuration list for PBXProject "LxBlackjackGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C41FF4E1FA9AA3A00C1C48D;
+			productRefGroup = 0C41FF581FA9AA3A00C1C48D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C41FF561FA9AA3A00C1C48D /* LxBlackjackGame */,
+				0C41FF6E1FA9AA3A00C1C48D /* LxBlackjackGameTests */,
+				0C41FF791FA9AA3A00C1C48D /* LxBlackjackGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C41FF551FA9AA3A00C1C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C41FF671FA9AA3A00C1C48D /* LaunchScreen.storyboard in Resources */,
+				0C0B5EAF1FA9EF4D006E4795 /* logo@2x.png in Resources */,
+				0CE7A7281FAC0D6F009FA569 /* btnMenu@2x.png in Resources */,
+				0C0B5EA81FA9E81A006E4795 /* chip10@2x.png in Resources */,
+				0CE7A6C41FAB0040009FA569 /* btnSound@2x.png in Resources */,
+				0C4100511FA9BE5300C1C48D /* btnPlay@2x.png in Resources */,
+				0CE7A6CE1FAB1AE1009FA569 /* LxGameViewController.xib in Resources */,
+				0C0B5EB11FA9F0F8006E4795 /* gameTitle@2x.png in Resources */,
+				0CE7A72A1FAC1218009FA569 /* moneyBar@2x.png in Resources */,
+				0C41FF641FA9AA3A00C1C48D /* Assets.xcassets in Resources */,
+				0C4100551FA9CA4200C1C48D /* chips.png in Resources */,
+				0C0B5EAD1FA9E9AD006E4795 /* LxRootViewController.xib in Resources */,
+				0C0B5EA61FA9E81A006E4795 /* chip100@2x.png in Resources */,
+				0C41FF621FA9AA3A00C1C48D /* Main.storyboard in Resources */,
+				0C0B5EA51FA9E81A006E4795 /* chip50@2x.png in Resources */,
+				0CE7A6D01FAB1C46009FA569 /* bgGame@2x.png in Resources */,
+				0C41FF8E1FA9AAB800C1C48D /* bgMenu.png in Resources */,
+				0C0B5EA71FA9E81A006E4795 /* chip20@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF6D1FA9AA3A00C1C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF781FA9AA3A00C1C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12015825E9B827054DFAE6FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGame/Pods-LxBlackjackGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		174065ECC83B4133A27CF212 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGameTests/Pods-LxBlackjackGameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E3C3FFD027C236F2FE986D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGameTests/Pods-LxBlackjackGameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8C03814316BD0FB5E53DD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGame/Pods-LxBlackjackGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F58D4BEDB20B3735442C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LxBlackjackGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93901E26C63CBBEEC71FB3E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LxBlackjackGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DCFF1C66CACA50DAC8A2D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LxBlackjackGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6B8AF69A2407222443D134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGameUITests/Pods-LxBlackjackGameUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDA300E91792AF102F5C3E82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LxBlackjackGameUITests/Pods-LxBlackjackGameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C41FF531FA9AA3A00C1C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0B5EAC1FA9E9AD006E4795 /* LxRootViewController.m in Sources */,
+				0CE7A7211FAC09BF009FA569 /* UIView+Default.m in Sources */,
+				0CE7A7251FAC09BF009FA569 /* LxAlertController.m in Sources */,
+				0CE7A7141FAC09BF009FA569 /* CALayer+Default.m in Sources */,
+				0CE7A71D1FAC09BF009FA569 /* UIButton+EnlargeEdge.m in Sources */,
+				0CE7A71A1FAC09BF009FA569 /* NSDictionary+XmlHelper.m in Sources */,
+				0CE7A7171FAC09BF009FA569 /* NSArray+Helper.m in Sources */,
+				0CE7A7221FAC09BF009FA569 /* UIViewController+Default.m in Sources */,
+				0CE7A7261FAC09BF009FA569 /* LxSegmentedControl.m in Sources */,
+				0CE7A7151FAC09BF009FA569 /* CAShapeLayer+Default.m in Sources */,
+				0CE7A7191FAC09BF009FA569 /* NSDictionary+Helper.m in Sources */,
+				0CE7A7201FAC09BF009FA569 /* UIImage+Default.m in Sources */,
+				0C41FF6A1FA9AA3A00C1C48D /* main.m in Sources */,
+				0CE7A6DA1FABFEBE009FA569 /* ASButtonNode+ClickHelp.m in Sources */,
+				0CE7A7241FAC09BF009FA569 /* LxAlertAction.m in Sources */,
+				0CE7A71E1FAC09BF009FA569 /* UIColor+Default.m in Sources */,
+				0CE7A71C1FAC09BF009FA569 /* NSTimer+Default.m in Sources */,
+				0CE7A7231FAC09BF009FA569 /* LxAvPlayerLayer.m in Sources */,
+				0C41FF5C1FA9AA3A00C1C48D /* AppDelegate.m in Sources */,
+				0CE7A7161FAC09BF009FA569 /* CATextLayer+Default.m in Sources */,
+				0CE7A71F1FAC09BF009FA569 /* UIFont+Default.m in Sources */,
+				0CE7A6CD1FAB1AE1009FA569 /* LxGameViewController.m in Sources */,
+				0CE7A71B1FAC09BF009FA569 /* NSString+Helper.m in Sources */,
+				0CE7A7181FAC09BF009FA569 /* NSMutableArray+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF6B1FA9AA3A00C1C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C41FF741FA9AA3A00C1C48D /* LxBlackjackGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C41FF761FA9AA3A00C1C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C41FF7F1FA9AA3B00C1C48D /* LxBlackjackGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C41FF711FA9AA3A00C1C48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C41FF561FA9AA3A00C1C48D /* LxBlackjackGame */;
+			targetProxy = 0C41FF701FA9AA3A00C1C48D /* PBXContainerItemProxy */;
+		};
+		0C41FF7C1FA9AA3A00C1C48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C41FF561FA9AA3A00C1C48D /* LxBlackjackGame */;
+			targetProxy = 0C41FF7B1FA9AA3A00C1C48D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C41FF601FA9AA3A00C1C48D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C41FF611FA9AA3A00C1C48D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0C41FF651FA9AA3A00C1C48D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C41FF661FA9AA3A00C1C48D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C41FF811FA9AA3B00C1C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C41FF821FA9AA3B00C1C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C41FF841FA9AA3B00C1C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02B1420268C93FA94A3F27F /* Pods-LxBlackjackGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/davin/MineProject/LxBlackjackGame/LxBlackjackGame/PrefixHeader.pch;
+				INFOPLIST_FILE = LxBlackjackGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0C41FF851FA9AA3B00C1C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9785DE8E00753D2B0BD35527 /* Pods-LxBlackjackGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/davin/MineProject/LxBlackjackGame/LxBlackjackGame/PrefixHeader.pch;
+				INFOPLIST_FILE = LxBlackjackGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0C41FF871FA9AA3B00C1C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A499673643768E65169A89D /* Pods-LxBlackjackGameTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				INFOPLIST_FILE = LxBlackjackGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LxBlackjackGame.app/LxBlackjackGame";
+			};
+			name = Debug;
+		};
+		0C41FF881FA9AA3B00C1C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F75B059D5FE9D94A1E2402 /* Pods-LxBlackjackGameTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				INFOPLIST_FILE = LxBlackjackGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LxBlackjackGame.app/LxBlackjackGame";
+			};
+			name = Release;
+		};
+		0C41FF8A1FA9AA3B00C1C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E994366BEBD67180095A4E9 /* Pods-LxBlackjackGameUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				INFOPLIST_FILE = LxBlackjackGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LxBlackjackGame;
+			};
+			name = Debug;
+		};
+		0C41FF8B1FA9AA3B00C1C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C51F2015F3B30764BEA1D0 /* Pods-LxBlackjackGameUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FNU9VD9ZK4;
+				INFOPLIST_FILE = LxBlackjackGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackjack.LxBlackjackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LxBlackjackGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C41FF521FA9AA3A00C1C48D /* Build configuration list for PBXProject "LxBlackjackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C41FF811FA9AA3B00C1C48D /* Debug */,
+				0C41FF821FA9AA3B00C1C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C41FF831FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C41FF841FA9AA3B00C1C48D /* Debug */,
+				0C41FF851FA9AA3B00C1C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C41FF861FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C41FF871FA9AA3B00C1C48D /* Debug */,
+				0C41FF881FA9AA3B00C1C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C41FF891FA9AA3B00C1C48D /* Build configuration list for PBXNativeTarget "LxBlackjackGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C41FF8A1FA9AA3B00C1C48D /* Debug */,
+				0C41FF8B1FA9AA3B00C1C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C41FF4F1FA9AA3A00C1C48D /* Project object */;
+}
