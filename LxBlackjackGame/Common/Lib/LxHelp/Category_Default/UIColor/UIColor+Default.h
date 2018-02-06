@@ -1,10 +1,4 @@
-//
-//  UIColor+Default.h
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/5/9.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 #define lx_UIColorFrom_HexStr(aStr) [UIColor lx_colorWithHexString:aStr]  //emp. @"#f83900"

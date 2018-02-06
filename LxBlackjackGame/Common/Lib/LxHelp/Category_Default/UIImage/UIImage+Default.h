@@ -1,10 +1,4 @@
-//
-//  UIImage+Default.h
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/6/9.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 

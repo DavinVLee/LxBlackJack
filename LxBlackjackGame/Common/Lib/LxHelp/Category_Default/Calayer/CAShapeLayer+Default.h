@@ -1,10 +1,3 @@
-//
-//  CAShapeLayer+Default.h
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/5/18.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
 
 #import <QuartzCore/QuartzCore.h>
 

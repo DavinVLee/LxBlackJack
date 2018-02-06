@@ -1,10 +1,4 @@
-//
-//  LxSegmentedControl.h
-//  PianoBridgeHD
-//
-//  Created by 李翔 on 2017/8/2.
-//  Copyright © 2017年 Mason. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 typedef void(^LxSegmentedControlClickBlock)(NSInteger clickIndex);

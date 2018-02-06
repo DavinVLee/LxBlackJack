@@ -1,10 +1,4 @@
-//
-//  LxSegmentedControl.m
-//  PianoBridgeHD
-//
-//  Created by 李翔 on 2017/8/2.
-//  Copyright © 2017年 Mason. All rights reserved.
-//
+
 
 #import "LxSegmentedControl.h"
 #import "UIImage+Default.h"

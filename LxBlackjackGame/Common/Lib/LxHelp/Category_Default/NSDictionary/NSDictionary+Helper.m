@@ -1,10 +1,4 @@
-//
-//  NSDictionary+Helper.m
-//  svgtest2
-//
-//  Created by 李翔 on 2017/4/25.
-//  Copyright © 2017年 ydkj. All rights reserved.
-//
+
 
 #import "NSDictionary+Helper.h"
 

@@ -1,10 +1,3 @@
-//
-//  UIButton+EnlargeEdge.m
-//  PianoBridgeHD
-//
-//  Created by 李翔 on 2017/8/2.
-//  Copyright © 2017年 Mason. All rights reserved.
-//
 
 #import "UIButton+EnlargeEdge.h"
 #import <objc/runtime.h>

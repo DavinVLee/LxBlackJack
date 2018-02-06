@@ -1,18 +1,14 @@
-//
-//  LxRootViewController.m
-//  LxBlackjackGame
-//
-//  Created by HaiLunDev on 2017/11/1.
-//  Copyright © 2017年 DavinLee. All rights reserved.
-//
 
 #import "LxRootViewController.h"
 #import "ASButtonNode+ClickHelp.h"
 #import "LxGameViewController.h"
 #import "UIViewController+Default.h"
+#import "WeBackGroundMusicManage.h"
+#import "WeAVAudioPlayer.h"
 
 @interface LxRootViewController ()
-
+@property (strong, nonatomic) ASButtonNode *muteBtn;
+@property (strong, nonatomic) WeAVAudioPlayer *bgPlayer;
 @end
 
 @implementation LxRootViewController
@@ -22,10 +18,41 @@
     [self setupDefault];
     // Do any additional setup after loading the view from its nib.
 }
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    _bgPlayer.volume = [WeBackGroundMusicManage sharedInstance].volume;
+    [_bgPlayer play];
+    if ([WeBackGroundMusicManage sharedInstance].volume == 0) {
+        _muteBtn.selected = YES;
+    }else
+    {
+        _muteBtn.selected = NO;
+    }
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self interfaceOrientation:UIInterfaceOrientationMaskLandscapeRight];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [_bgPlayer pause];
+}
 
 #pragma mark - layout
 - (void)setupDefault
 {
+    NSURL *voiceUrl = [[NSBundle mainBundle] URLForResource:@"MX054_31" withExtension:@"mp3"];
+    _bgPlayer = [[WeAVAudioPlayer alloc] initWithContentsOfURL:voiceUrl error:nil];
+    _bgPlayer.volume = [WeBackGroundMusicManage sharedInstance].volume;
+    [_bgPlayer prepareToPlay];
+    _bgPlayer.numberOfLoops = -1;
+    [_bgPlayer play];
+    
     ASImageNode *bgNode = [[ASImageNode alloc] init];
     bgNode.frame = CGRectMake(0, 0, mScreenWidth, mScreenHeight);
     UIImage *bgImage = [UIImage lx_imageFromBundleWithName:@"bgMenu"];
@@ -61,14 +88,14 @@
                      }];
     
     /** 右上角静音按钮 **/
-    ASButtonNode *muteBtn = [[ASButtonNode alloc] init];
+    _muteBtn = [[ASButtonNode alloc] init];
     UIImage *muteImage = [UIImage lx_imageFromBundleWithName:@"btnSound@2x"];
-    [muteBtn setImage:muteImage forState:UIControlStateNormal];
-    [self.view addSubnode:muteBtn];
-    [muteBtn addTarget:self
+    [_muteBtn setImage:muteImage forState:UIControlStateNormal];
+    [self.view addSubnode:_muteBtn];
+    [_muteBtn addTarget:self
                 action:@selector(clickMuteAction:)
       forControlEvents:ASControlNodeEventTouchUpInside];
-    muteBtn.frame = CGRectMake(mScreenWidth - muteImage.size.width - 20,
+    _muteBtn.frame = CGRectMake(mScreenWidth - muteImage.size.width - 20,
                                20,
                                muteImage.size.width,
                                muteImage.size.height);
@@ -86,17 +113,52 @@
                          Duration:2.5
                           ForView:self.navigationController.view];
     [self.navigationController pushViewController:gameVc animated:YES];
+    [[WeBackGroundMusicManage sharedInstance] playVoiceWithType:playVoiceClick];
 }
 
 - (void)clickMuteAction:(ASButtonNode *)btn
 {
     btn.selected = !btn.selected;
+    if (btn.selected) {
+        [[WeBackGroundMusicManage sharedInstance] setVolume:0];
+    }else{
+        [[WeBackGroundMusicManage sharedInstance] setVolume:0.4];
+    }
+    _bgPlayer.volume = [WeBackGroundMusicManage sharedInstance].volume;
     
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscapeRight;
+}
+
+//强制转屏
+- (void)interfaceOrientation:(UIInterfaceOrientation)orientation
+{
+    if ([[UIDevice currentDevice] respondsToSelector:@selector(setOrientation:)]) {
+        SEL selector  = NSSelectorFromString(@"setOrientation:");
+        NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:[UIDevice instanceMethodSignatureForSelector:selector]];
+        [invocation setSelector:selector];
+        [invocation setTarget:[UIDevice currentDevice]];
+        int val = orientation;
+        // 从2开始是因为0 1 两个参数已经被selector和target占用
+        [invocation setArgument:&val atIndex:2];
+        [invocation invoke];
+    }
+}
+
+- (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
+{
+    return UIInterfaceOrientationLandscapeRight;
+}
+- (BOOL)shouldAutorotate
+{
+    return NO;
 }
 
 /*

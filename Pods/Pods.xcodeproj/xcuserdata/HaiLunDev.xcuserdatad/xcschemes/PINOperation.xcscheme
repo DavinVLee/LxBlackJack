@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '1998CA3029B7202E0A3CAC7A9AAD615E'
+               BlueprintIdentifier = 'D863DF209AFF2C56879854880B5ABD64'
                BlueprintName = 'PINOperation'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPINOperation.a'>
+               BuildableName = 'PINOperation.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

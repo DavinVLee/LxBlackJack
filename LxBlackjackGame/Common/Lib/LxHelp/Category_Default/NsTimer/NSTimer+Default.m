@@ -1,10 +1,4 @@
-//
-//  NSTimer+Default.m
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/6/17.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
+
 
 #import "NSTimer+Default.h"
 

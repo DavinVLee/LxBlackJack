@@ -1,10 +1,4 @@
-//
-//  LxAvPlayerLayer.h
-//  PianoBridgeHD
-//
-//  Created by DavinLee on 2017/9/21.
-//  Copyright © 2017年 Mason. All rights reserved.
-//
+
 
 #import <AVFoundation/AVFoundation.h>
 

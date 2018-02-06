@@ -1,10 +1,4 @@
-//
-//  LxAlertController.m
-//  svgtest2
-//
-//  Created by 李翔 on 2017/6/20.
-//  Copyright © 2017年 ydkj. All rights reserved.
-//
+
 
 #import "LxAlertController.h"
 #import "LxAlertAction.h"

@@ -1,10 +1,4 @@
-//
-//  CAShapeLayer+Default.m
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/5/18.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
+
 
 #import "CAShapeLayer+Default.h"
 #import <UIKit/UIKit.h>

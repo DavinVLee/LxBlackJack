@@ -1,10 +1,4 @@
-//
-//  NSDictionary+XmlHelper.m
-//  LxHelp
-//
-//  Created by DavinLee on 2017/9/22.
-//  Copyright © 2017年 DavinLee. All rights reserved.
-//
+
 
 #import "NSDictionary+XmlHelper.h"
 

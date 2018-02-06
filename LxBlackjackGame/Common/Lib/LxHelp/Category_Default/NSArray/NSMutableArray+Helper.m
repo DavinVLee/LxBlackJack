@@ -1,10 +1,4 @@
-//
-//  NSMutableArray+Helper.m
-//  SmartPiano
-//
-//  Created by 李翔 on 2017/7/3.
-//  Copyright © 2017年 Ydtec. All rights reserved.
-//
+
 
 #import "NSMutableArray+Helper.h"
 
